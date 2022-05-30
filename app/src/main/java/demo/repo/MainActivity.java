@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import ottu.payment.toast.ui.OttoPaymentSdk;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -12,5 +14,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+        new  OttoPaymentSdk(this);
     }
 }
